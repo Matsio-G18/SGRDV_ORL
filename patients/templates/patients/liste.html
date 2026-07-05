@@ -15,7 +15,7 @@
         </div>
         <!-- Bouton Nouveau Patient -->
         <div>
-            <a href="/patients/creer/" class="btn text-white fw-medium px-4 py-2 rounded-pill shadow-sm" style="background-color: #14b8a6; border: none;">
+            <a href="{% url 'patients:create' %}" class="btn text-white fw-medium px-4 py-2 rounded-pill shadow-sm" style="background-color: #14b8a6; border: none;">
                 <i class="fa-solid fa-user-plus me-2"></i>Nouveau patient
             </a>
         </div>
@@ -82,13 +82,13 @@
                             <td class="text-secondary fw-bold" style="color: #0f766e;">{{ patient.groupe_sanguin|default:"--" }}</td>
                             <td class="pe-4 text-end">
                                 <div class="btn-group gap-1">
-                                    <a href="/patients/{{ patient.id }}/" class="btn btn-sm btn-outline-secondary rounded border-0" title="Voir le dossier">
+                                    <a href="{% url 'patients:detail' patient.id %}" class="btn btn-sm btn-outline-secondary rounded border-0" title="Voir le dossier">
                                         <i class="bi bi-eye-fill text-primary"></i>
                                     </a>
-                                    <a href="/patients/modifier/{{ patient.id }}/" class="btn btn-sm btn-outline-secondary rounded border-0" title="Modifier">
+                                    <a href="{% url 'patients:edit' patient.id %}" class="btn btn-sm btn-outline-secondary rounded border-0" title="Modifier">
                                         <i class="bi bi-pencil-fill text-warning"></i>
                                     </a>
-                                    <a href="/patients/supprimer/{{ patient.id }}/" class="btn btn-sm btn-outline-secondary rounded border-0" title="Supprimer">
+                                    <a href="{% url 'patients:delete' patient.id %}" class="btn btn-sm btn-outline-secondary rounded border-0" title="Supprimer">
                                         <i class="bi bi-trash-fill text-danger"></i>
                                     </a>
                                 </div>
