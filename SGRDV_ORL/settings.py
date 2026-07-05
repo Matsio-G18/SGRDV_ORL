@@ -13,7 +13,7 @@ SECRET_KEY = 'django-insecure-&n_=i3(5*6i2z3i81nn1nch*3!@b@z%3t060@1qmx9gq%t4y2f
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['sgrdv-orl.onrender.com', '127.0.0.1', 'localhost']
 
 
 # Application definition
