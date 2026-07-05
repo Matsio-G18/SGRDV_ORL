@@ -1,0 +1,112 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Patients - BERNADETTE{% endblock %}
+
+{% block content %}
+<main class="container" style="margin-top: 120px; margin-bottom: 50px;" data-aos="fade-up">
+    <!-- En-tête de la page -->
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3 mb-4">
+        <div>
+            <h1 class="fw-bold h2 m-0" style="color: #0f766e;">
+                <i class="fa-solid fa-users-medical me-2" style="color: #14b8a6;"></i>Liste des Patients
+            </h1>
+            <p class="text-muted m-0">Gérez le répertoire et les dossiers médicaux des patients ORL.</p>
+        </div>
+        <!-- Bouton Nouveau Patient -->
+        <div>
+            <a href="/patients/creer/" class="btn text-white fw-medium px-4 py-2 rounded-pill shadow-sm" style="background-color: #14b8a6; border: none;">
+                <i class="fa-solid fa-user-plus me-2"></i>Nouveau patient
+            </a>
+        </div>
+    </div>
+
+    <!-- Barre de recherche et filtres -->
+    <div class="card border-0 shadow-sm mb-4">
+        <div class="card-body p-3">
+            <form method="GET" action="" class="row g-2">
+                <div class="col-12 col-md-8 col-lg-9">
+                    <div class="input-group">
+                        <span class="input-group-text bg-white border-end-0 text-muted">
+                            <i class="bi bi-search"></i>
+                        </span>
+                        <input type="text" name="search" value="{{ request.GET.search|default:'' }}" class="form-control border-start-0 ps-0" placeholder="Rechercher un patient par nom, prénom ou n° de dossier...">
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3">
+                    <button type="submit" class="btn w-100 text-white fw-medium" style="background-color: #0f766e;">
+                        Filtrer
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Tableau des Patients -->
+    <div class="card border-0 shadow-sm">
+        <div class="card-body p-0">
+            <div class="table-responsive">
+                <table class="table table-hover align-middle mb-0">
+                    <thead class="table-light text-uppercase small fw-bold" style="background-color: #f8fafc;">
+                        <tr>
+                            <th class="ps-4 py-3" style="color: #0f766e;">N° Dossier</th>
+                            <th class="py-3" style="color: #0f766e;">Nom & Prénom</th>
+                            <th class="py-3" style="color: #0f766e;">Téléphone</th>
+                            <th class="py-3" style="color: #0f766e;">Sexe</th>
+                            <th class="py-3" style="color: #0f766e;">Groupe Sanguin</th>
+                            <th class="pe-4 py-3 text-end" style="color: #0f766e;">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Boucle Django sur les patients -->
+                        {% for patient in patients %}
+                        <tr>
+                            <td class="ps-4 fw-medium text-secondary">#{{ patient.id }}</td>
+                            <td>
+                                <div class="d-flex align-items-center gap-3">
+                                    <div class="rounded-circle d-flex align-items-center justify-content-center fw-bold" style="width: 40px; height: 40px; background-color: #ccfbf1; color: #0f766e;">
+                                        {{ patient.nom|slice:":1" }}{{ patient.prenom|slice:":1" }}
+                                    </div>
+                                    <div>
+                                        <span class="fw-bold d-block text-dark">{{ patient.nom }} {{ patient.prenom }}</span>
+                                        <span class="text-muted small">Né(e) le {{ patient.date_naissance|date:"d/m/Y" }}</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-secondary">{{ patient.telephone|default:"Non renseigné" }}</td>
+                            <td>
+                                <span class="badge rounded-pill bg-light text-dark px-2.5 py-1.5 border">
+                                    {{ patient.get_sexe_display }}
+                                </span>
+                            </td>
+                            <td class="text-secondary fw-bold" style="color: #0f766e;">{{ patient.groupe_sanguin|default:"--" }}</td>
+                            <td class="pe-4 text-end">
+                                <div class="btn-group gap-1">
+                                    <a href="/patients/{{ patient.id }}/" class="btn btn-sm btn-outline-secondary rounded border-0" title="Voir le dossier">
+                                        <i class="bi bi-eye-fill text-primary"></i>
+                                    </a>
+                                    <a href="/patients/modifier/{{ patient.id }}/" class="btn btn-sm btn-outline-secondary rounded border-0" title="Modifier">
+                                        <i class="bi bi-pencil-fill text-warning"></i>
+                                    </a>
+                                    <a href="/patients/supprimer/{{ patient.id }}/" class="btn btn-sm btn-outline-secondary rounded border-0" title="Supprimer">
+                                        <i class="bi bi-trash-fill text-danger"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        {% empty %}
+                        <!-- Cas où la liste est vide -->
+                        <tr>
+                            <td colspan="6" class="text-center py-5 text-muted">
+                                <i class="fa-solid fa-folder-open d-block fs-1 mb-3" style="color: #cbd5e1;"></i>
+                                Aucun patient trouvé dans la base de données.
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}

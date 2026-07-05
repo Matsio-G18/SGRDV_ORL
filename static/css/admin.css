@@ -1,0 +1,12 @@
+/* Change la couleur de la barre du haut */
+#header {
+    background: #0f766e !important;
+    color: #ffffff !important;
+}
+/* Change la couleur des boutons et des liens */
+.module h2, .theme-teal .button, ::-webkit-datetime-edit {
+    background-color: #14b8a6 !important;
+}
+div.breadcrumbs {
+    background: #115e59 !important;
+}

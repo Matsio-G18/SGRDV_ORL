@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Modifier rendez-vous{% endblock %}
+
+{% block content %}
+<main class="container" style="margin-top:120px;">
+    <h2>Modifier le rendez-vous</h2>
+
+    <form method="post" class="mt-4">
+        {% csrf_token %}
+        {% if form.non_field_errors %}
+            <div class="alert alert-danger">{{ form.non_field_errors }}</div>
+        {% endif %}
+
+        <div class="mb-3">
+            <label class="form-label">Médecin (optionnel)</label>
+            {{ form.medecin }}
+            {{ form.medecin.errors }}
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label class="form-label">Date</label>
+                {{ form.date_rdv }}
+                {{ form.date_rdv.errors }}
+            </div>
+            <div class="col-md-6 mb-3">
+                <label class="form-label">Heure</label>
+                {{ form.heure_rdv }}
+                {{ form.heure_rdv.errors }}
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Motif</label>
+            {{ form.motif }}
+            {{ form.motif.errors }}
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Notes</label>
+            {{ form.notes }}
+            {{ form.notes.errors }}
+        </div>
+
+        <button type="submit" class="btn btn-primary">Sauvegarder</button>
+        <a href="{% url 'rdv:list' %}" class="btn btn-secondary ms-2">Annuler</a>
+    </form>
+</main>
+{% endblock %}

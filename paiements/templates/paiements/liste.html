@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Facturation - BERNADETTE{% endblock %}
+
+{% block content %}
+<main class="container" style="margin-top: 120px; margin-bottom: 50px;" data-aos="fade-up">
+    <!-- En-tête -->
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3 mb-4">
+        <div>
+            <h1 class="fw-bold h2 m-0" style="color: #0f766e;">
+                <i class="fa-solid fa-credit-card me-2" style="color: #14b8a6;"></i>Suivi des Paiements
+            </h1>
+            <p class="text-muted m-0">
+                {% if user.is_superuser or user.medecin %}
+                    Consultez le registre général des encaissements et des actes ORL.
+                {% else %}
+                    Consultez l'historique de vos règlements et téléchargez vos reçus.
+                {% endif %}
+            </p>
+        </div>
+        {% if user.is_superuser %}
+        <div>
+            <a href="{% url 'paiements:create' %}" class="btn text-white fw-medium px-4 py-2 rounded-pill shadow-sm" style="background-color: #14b8a6; border: none;">
+                <i class="fa-solid fa-plus me-2"></i>Enregistrer un reçu
+            </a>
+        </div>
+        {% endif %}
+    </div>
+
+    <!-- Tableau financier -->
+    <div class="card border-0 shadow-sm">
+        <div class="card-body p-0">
+            <div class="table-responsive">
+                <table class="table table-hover align-middle mb-0">
+                    <thead class="table-light text-uppercase small fw-bold" style="background-color: #f8fafc;">
+                        <tr>
+                            <th class="ps-4 py-3" style="color: #0f766e;">Réf Facture</th>
+                            <th class="py-3" style="color: #0f766e;">Patient</th>
+                            <th class="py-3" style="color: #0f766e;">Date d'émission</th>
+                            <th class="py-3" style="color: #0f766e;">Mode de règlement</th>
+                            <th class="py-3" style="color: #0f766e;">Montant</th>
+                            <th class="py-3" style="color: #0f766e;">Statut</th>
+                            <th class="pe-4 py-3 text-end" style="color: #0f766e;">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for p in paiements %}
+                        <tr>
+                            <td class="ps-4 fw-medium text-secondary">#FAC-{{ p.id }}</td>
+                            <td class="fw-bold text-dark">{{ p.patient }}</td>
+                            <td class="text-secondary">{{ p.date|date:"d/m/Y" }}</td>
+                            <td>
+                                <span class="text-dark small"><i class="bi bi-wallet2 me-1 text-muted"></i>{{ p.get_mode_paiement_display }}</span>
+                            </td>
+                            <td class="fw-bold text-dark">{{ p.montant }} FCFA</td>
+                            <td>
+                                {% if p.statut == 'paye' %}
+                                    <span class="badge rounded-pill border px-2.5 py-1.5" style="background-color: #d1fae5; color: #065f46; border-color: #a7f3d0 !important;">Payé</span>
+                                {% else %}
+                                    <span class="badge rounded-pill border px-2.5 py-1.5" style="background-color: #fee2e2; color: #991b1b; border-color: #fca5a5 !important;">En attente</span>
+                                {% endif %}
+                            </td>
+                            <td class="pe-4 text-end">
+                                <div class="btn-group gap-1">
+                                    <a href="{% url 'paiements:detail' p.id %}" class="btn btn-sm btn-outline-secondary rounded border-0" title="Voir les détails">
+                                        <i class="bi bi-eye-fill text-primary"></i>
+                                    </a>
+                                    {% if user.is_superuser %}
+                                    <a href="{% url 'paiements:edit' p.id %}" class="btn btn-sm btn-outline-secondary rounded border-0" title="Modifier">
+                                        <i class="bi bi-pencil-fill text-warning"></i>
+                                    </a>
+                                    <a href="{% url 'paiements:delete' p.id %}" class="btn btn-sm btn-outline-secondary rounded border-0" title="Supprimer">
+                                        <i class="bi bi-trash-fill text-danger"></i>
+                                    </a>
+                                    {% endif %}
+                                </div>
+                            </td>
+                        </tr>
+                        {% empty %}
+                        <tr>
+                            <td colspan="7" class="text-center py-5 text-muted">
+                                <i class="fa-solid fa-file-circle-xmark d-block fs-1 mb-3" style="color: #cbd5e1;"></i>
+                                Aucune pièce comptable enregistrée.
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}

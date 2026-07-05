@@ -1,0 +1,1538 @@
+[
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "Patient",
+        "importPath": "patients.models",
+        "description": "patients.models",
+        "isExtraImport": true,
+        "detail": "patients.models",
+        "documentation": {}
+    },
+    {
+        "label": "Patient",
+        "importPath": "patients.models",
+        "description": "patients.models",
+        "isExtraImport": true,
+        "detail": "patients.models",
+        "documentation": {}
+    },
+    {
+        "label": "Patient",
+        "importPath": "patients.models",
+        "description": "patients.models",
+        "isExtraImport": true,
+        "detail": "patients.models",
+        "documentation": {}
+    },
+    {
+        "label": "Q",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Medecin",
+        "importPath": "medecins.models",
+        "description": "medecins.models",
+        "isExtraImport": true,
+        "detail": "medecins.models",
+        "documentation": {}
+    },
+    {
+        "label": "Medecin",
+        "importPath": "medecins.models",
+        "description": "medecins.models",
+        "isExtraImport": true,
+        "detail": "medecins.models",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "comptes.migrations.0001_initial",
+        "description": "comptes.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Compte',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('username', models.CharField(max_length=150, unique=True)),",
+        "detail": "comptes.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Compte",
+        "kind": 6,
+        "importPath": "comptes.admin",
+        "description": "comptes.admin",
+        "peekOfCode": "class Compte(admin.ModelAdmin):\n    #definition des colonnes dans liste\n    list_display =('username', 'email', 'date_joined')\n    #pour effectuer une recherche\n    search_fields = ('username', 'email', 'date_joined')",
+        "detail": "comptes.admin",
+        "documentation": {}
+    },
+    {
+        "label": "ComptesConfig",
+        "kind": 6,
+        "importPath": "comptes.apps",
+        "description": "comptes.apps",
+        "peekOfCode": "class ComptesConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'comptes'",
+        "detail": "comptes.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Compte",
+        "kind": 6,
+        "importPath": "comptes.models",
+        "description": "comptes.models",
+        "peekOfCode": "class Compte(models.Model):\n\tusername = models.CharField(max_length=150, unique=True)\n\temail = models.EmailField(unique=True)\n\tdate_joined = models.DateTimeField(auto_now_add=True)\n\tdef __str__(self):\n\t\treturn self.username",
+        "detail": "comptes.models",
+        "documentation": {}
+    },
+    {
+        "label": "\tusername",
+        "kind": 5,
+        "importPath": "comptes.models",
+        "description": "comptes.models",
+        "peekOfCode": "\tusername = models.CharField(max_length=150, unique=True)\n\temail = models.EmailField(unique=True)\n\tdate_joined = models.DateTimeField(auto_now_add=True)\n\tdef __str__(self):\n\t\treturn self.username",
+        "detail": "comptes.models",
+        "documentation": {}
+    },
+    {
+        "label": "\temail",
+        "kind": 5,
+        "importPath": "comptes.models",
+        "description": "comptes.models",
+        "peekOfCode": "\temail = models.EmailField(unique=True)\n\tdate_joined = models.DateTimeField(auto_now_add=True)\n\tdef __str__(self):\n\t\treturn self.username",
+        "detail": "comptes.models",
+        "documentation": {}
+    },
+    {
+        "label": "\tdate_joined",
+        "kind": 5,
+        "importPath": "comptes.models",
+        "description": "comptes.models",
+        "peekOfCode": "\tdate_joined = models.DateTimeField(auto_now_add=True)\n\tdef __str__(self):\n\t\treturn self.username",
+        "detail": "comptes.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "comptes.urls",
+        "description": "comptes.urls",
+        "peekOfCode": "app_name = 'comptes'\nurlpatterns = [\n    path('', views.index, name='index'),\n    path('login/', views.login_view, name='login'),\n    path('logout/', views.logout_view, name='logout'),\n    path('register/', views.register, name='register'),\n]",
+        "detail": "comptes.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "comptes.urls",
+        "description": "comptes.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.index, name='index'),\n    path('login/', views.login_view, name='login'),\n    path('logout/', views.logout_view, name='logout'),\n    path('register/', views.register, name='register'),\n]",
+        "detail": "comptes.urls",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "comptes.views",
+        "description": "comptes.views",
+        "peekOfCode": "def index(request):\n    \"\"\"Page d'accueil ou tableau de bord par défaut après connexion.\"\"\"\n    if not request.user.is_authenticated:\n        return redirect('comptes:login')\n    # Redirection personnalisée selon le rôle de l'utilisateur\n    user = request.user\n    if user.is_superuser:\n        return render(request, 'comptes/index.html') # Tableau de bord Admin\n    elif hasattr(user, 'medecin'):\n        return redirect('medecins:index') # Redirige vers l'app medecins",
+        "detail": "comptes.views",
+        "documentation": {}
+    },
+    {
+        "label": "login_view",
+        "kind": 2,
+        "importPath": "comptes.views",
+        "description": "comptes.views",
+        "peekOfCode": "def login_view(request):\n    \"\"\"Gère la connexion des utilisateurs.\"\"\"\n    if request.user.is_authenticated:\n        return redirect('comptes:index')\n    if request.method == 'POST':\n        form = AuthenticationForm(request, data=request.POST)\n        if form.is_valid():\n            username = form.cleaned_data.get('username')\n            password = form.cleaned_data.get('password')\n            user = authenticate(username=username, password=password)",
+        "detail": "comptes.views",
+        "documentation": {}
+    },
+    {
+        "label": "logout_view",
+        "kind": 2,
+        "importPath": "comptes.views",
+        "description": "comptes.views",
+        "peekOfCode": "def logout_view(request):\n    \"\"\"Gère la déconnexion de l'utilisateur.\"\"\"\n    logout(request)\n    messages.info(request, \"Vous avez été déconnecté avec succès.\")\n    return redirect('comptes:login')\ndef register(request):\n    \"\"\"Gère l'inscription des nouveaux patients.\"\"\"\n    if request.user.is_authenticated:\n        return redirect('comptes:index')\n    if request.method == 'POST':",
+        "detail": "comptes.views",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "comptes.views",
+        "description": "comptes.views",
+        "peekOfCode": "def register(request):\n    \"\"\"Gère l'inscription des nouveaux patients.\"\"\"\n    if request.user.is_authenticated:\n        return redirect('comptes:index')\n    if request.method == 'POST':\n        form = UserCreationForm(request.POST)\n        if form.is_valid():\n            form.save()\n            messages.success(request, \"Votre compte a été créé ! Vous pouvez maintenant vous connecter.\")\n            return redirect('comptes:login')",
+        "detail": "comptes.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "medecins.migrations.0001_initial",
+        "description": "medecins.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Medecin',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('nom', models.CharField(max_length=100)),",
+        "detail": "medecins.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "medecins.migrations.0002_medecin_user",
+        "description": "medecins.migrations.0002_medecin_user",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('medecins', '0001_initial'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='medecin',\n            name='user',\n            field=models.OneToOneField(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, related_name='medecin', to=settings.AUTH_USER_MODEL),",
+        "detail": "medecins.migrations.0002_medecin_user",
+        "documentation": {}
+    },
+    {
+        "label": "Medecin",
+        "kind": 6,
+        "importPath": "medecins.admin",
+        "description": "medecins.admin",
+        "peekOfCode": "class Medecin(admin.ModelAdmin):\n    #pour afficher une colonne dans notre interface admin\n    list_display = ('nom', 'specialite', 'telephone')\n    search_fields = ('nom', 'specialite')",
+        "detail": "medecins.admin",
+        "documentation": {}
+    },
+    {
+        "label": "MedecinsConfig",
+        "kind": 6,
+        "importPath": "medecins.apps",
+        "description": "medecins.apps",
+        "peekOfCode": "class MedecinsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'medecins'",
+        "detail": "medecins.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Medecin",
+        "kind": 6,
+        "importPath": "medecins.models",
+        "description": "medecins.models",
+        "peekOfCode": "class Medecin(models.Model):\n    user = models.OneToOneField(User, on_delete=models.CASCADE, related_name='medecin', null=True, blank=True)\n    nom = models.CharField(max_length=100)\n    specialite = models.CharField(max_length=100)\n    telephone = models.CharField(max_length=20)\n    def __str__(self):\n        return self.nom",
+        "detail": "medecins.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "medecins.urls",
+        "description": "medecins.urls",
+        "peekOfCode": "app_name = 'medecins'\nurlpatterns = [\n    path('', views.index, name='index'),\n    path('list/', views.list_medecins, name='list'),\n    path('<int:id>/', views.detail, name='detail'),\n    path('create/', views.create, name='create'),\n    path('<int:id>/edit/', views.edit, name='edit'),\n    path('<int:id>/delete/', views.delete, name='delete'),\n]",
+        "detail": "medecins.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "medecins.urls",
+        "description": "medecins.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.index, name='index'),\n    path('list/', views.list_medecins, name='list'),\n    path('<int:id>/', views.detail, name='detail'),\n    path('create/', views.create, name='create'),\n    path('<int:id>/edit/', views.edit, name='edit'),\n    path('<int:id>/delete/', views.delete, name='delete'),\n]",
+        "detail": "medecins.urls",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "medecins.views",
+        "description": "medecins.views",
+        "peekOfCode": "def index(request):\n    return HttpResponse(\"Médecins - Index\")\ndef list_medecins(request):\n    return render(request, 'medecins/liste.html')\ndef detail(request, id):\n    return HttpResponse(f\"Médecins - Détail {id}\")\ndef create(request):\n    return HttpResponse(\"Médecins - Créer\")\ndef edit(request, id):\n    return HttpResponse(f\"Médecins - Modifier {id}\")",
+        "detail": "medecins.views",
+        "documentation": {}
+    },
+    {
+        "label": "list_medecins",
+        "kind": 2,
+        "importPath": "medecins.views",
+        "description": "medecins.views",
+        "peekOfCode": "def list_medecins(request):\n    return render(request, 'medecins/liste.html')\ndef detail(request, id):\n    return HttpResponse(f\"Médecins - Détail {id}\")\ndef create(request):\n    return HttpResponse(\"Médecins - Créer\")\ndef edit(request, id):\n    return HttpResponse(f\"Médecins - Modifier {id}\")\ndef delete(request, id):\n    return HttpResponse(f\"Médecins - Supprimer {id}\")",
+        "detail": "medecins.views",
+        "documentation": {}
+    },
+    {
+        "label": "detail",
+        "kind": 2,
+        "importPath": "medecins.views",
+        "description": "medecins.views",
+        "peekOfCode": "def detail(request, id):\n    return HttpResponse(f\"Médecins - Détail {id}\")\ndef create(request):\n    return HttpResponse(\"Médecins - Créer\")\ndef edit(request, id):\n    return HttpResponse(f\"Médecins - Modifier {id}\")\ndef delete(request, id):\n    return HttpResponse(f\"Médecins - Supprimer {id}\")",
+        "detail": "medecins.views",
+        "documentation": {}
+    },
+    {
+        "label": "create",
+        "kind": 2,
+        "importPath": "medecins.views",
+        "description": "medecins.views",
+        "peekOfCode": "def create(request):\n    return HttpResponse(\"Médecins - Créer\")\ndef edit(request, id):\n    return HttpResponse(f\"Médecins - Modifier {id}\")\ndef delete(request, id):\n    return HttpResponse(f\"Médecins - Supprimer {id}\")",
+        "detail": "medecins.views",
+        "documentation": {}
+    },
+    {
+        "label": "edit",
+        "kind": 2,
+        "importPath": "medecins.views",
+        "description": "medecins.views",
+        "peekOfCode": "def edit(request, id):\n    return HttpResponse(f\"Médecins - Modifier {id}\")\ndef delete(request, id):\n    return HttpResponse(f\"Médecins - Supprimer {id}\")",
+        "detail": "medecins.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "kind": 2,
+        "importPath": "medecins.views",
+        "description": "medecins.views",
+        "peekOfCode": "def delete(request, id):\n    return HttpResponse(f\"Médecins - Supprimer {id}\")",
+        "detail": "medecins.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "paiements.migrations.0001_initial",
+        "description": "paiements.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Paiement',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('montant', models.DecimalField(decimal_places=2, max_digits=8)),",
+        "detail": "paiements.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "paiements.migrations.0002_paiement_patient",
+        "description": "paiements.migrations.0002_paiement_patient",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('paiements', '0001_initial'),\n        ('patients', '0002_patient_adresse_patient_groupe_sanguin_patient_sexe_and_more'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='paiement',\n            name='patient',\n            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, related_name='paiements', to='patients.patient'),",
+        "detail": "paiements.migrations.0002_paiement_patient",
+        "documentation": {}
+    },
+    {
+        "label": "Paiement",
+        "kind": 6,
+        "importPath": "paiements.admin",
+        "description": "paiements.admin",
+        "peekOfCode": "class Paiement(admin.ModelAdmin):\n    #liste des colonnes pour afficher sur l'interface admin\n    list_display = ('montant', 'description', 'date')",
+        "detail": "paiements.admin",
+        "documentation": {}
+    },
+    {
+        "label": "PaiementsConfig",
+        "kind": 6,
+        "importPath": "paiements.apps",
+        "description": "paiements.apps",
+        "peekOfCode": "class PaiementsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'paiements'",
+        "detail": "paiements.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Paiement",
+        "kind": 6,
+        "importPath": "paiements.models",
+        "description": "paiements.models",
+        "peekOfCode": "class Paiement(models.Model):\n    patient = models.ForeignKey(Patient, on_delete=models.CASCADE, related_name='paiements', null=True, blank=True)\n    montant = models.DecimalField(max_digits=8, decimal_places=2)\n    date = models.DateField(auto_now_add=True)\n    description = models.CharField(max_length=255, blank=True)\n    def __str__(self):\n        return f\"{self.montant}€ le {self.date}\"",
+        "detail": "paiements.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "paiements.urls",
+        "description": "paiements.urls",
+        "peekOfCode": "app_name = 'paiements'\nurlpatterns = [\n    path('', views.index, name='index'),\n    path('list/', views.list_paiements, name='list'),\n    path('<int:id>/', views.detail, name='detail'),\n    path('create/', views.create, name='create'),\n    path('<int:id>/edit/', views.edit, name='edit'),\n    path('<int:id>/delete/', views.delete, name='delete'),\n]",
+        "detail": "paiements.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "paiements.urls",
+        "description": "paiements.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.index, name='index'),\n    path('list/', views.list_paiements, name='list'),\n    path('<int:id>/', views.detail, name='detail'),\n    path('create/', views.create, name='create'),\n    path('<int:id>/edit/', views.edit, name='edit'),\n    path('<int:id>/delete/', views.delete, name='delete'),\n]",
+        "detail": "paiements.urls",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "paiements.views",
+        "description": "paiements.views",
+        "peekOfCode": "def index(request):\n    return HttpResponse(\"Paiements - Index\")\n@login_required\ndef list_paiements(request):\n    user = request.user\n    # 1. Le personnel médical et les admins voient TOUS les paiements de la clinique\n    if user.is_superuser or hasattr(user, 'medecin'):\n        les_paiements = Paiement.objects.all()\n        return render(request, 'paiements/liste.html', {'paiements': les_paiements})\n    # 2. Le patient connecté ne voit STRICTEMENT que SES factures et reçus",
+        "detail": "paiements.views",
+        "documentation": {}
+    },
+    {
+        "label": "list_paiements",
+        "kind": 2,
+        "importPath": "paiements.views",
+        "description": "paiements.views",
+        "peekOfCode": "def list_paiements(request):\n    user = request.user\n    # 1. Le personnel médical et les admins voient TOUS les paiements de la clinique\n    if user.is_superuser or hasattr(user, 'medecin'):\n        les_paiements = Paiement.objects.all()\n        return render(request, 'paiements/liste.html', {'paiements': les_paiements})\n    # 2. Le patient connecté ne voit STRICTEMENT que SES factures et reçus\n    else:\n        # On filtre les paiements reliés au profil du patient connecté\n        mes_paiements = Paiement.objects.filter(patient__user=user)",
+        "detail": "paiements.views",
+        "documentation": {}
+    },
+    {
+        "label": "detail",
+        "kind": 2,
+        "importPath": "paiements.views",
+        "description": "paiements.views",
+        "peekOfCode": "def detail(request, id):\n    return HttpResponse(f\"Paiements - Détail {id}\")\ndef create(request):\n    return HttpResponse(\"Paiements - Créer\")\ndef edit(request, id):\n    return HttpResponse(f\"Paiements - Modifier {id}\")\ndef delete(request, id):\n    return HttpResponse(f\"Paiements - Supprimer {id}\")",
+        "detail": "paiements.views",
+        "documentation": {}
+    },
+    {
+        "label": "create",
+        "kind": 2,
+        "importPath": "paiements.views",
+        "description": "paiements.views",
+        "peekOfCode": "def create(request):\n    return HttpResponse(\"Paiements - Créer\")\ndef edit(request, id):\n    return HttpResponse(f\"Paiements - Modifier {id}\")\ndef delete(request, id):\n    return HttpResponse(f\"Paiements - Supprimer {id}\")",
+        "detail": "paiements.views",
+        "documentation": {}
+    },
+    {
+        "label": "edit",
+        "kind": 2,
+        "importPath": "paiements.views",
+        "description": "paiements.views",
+        "peekOfCode": "def edit(request, id):\n    return HttpResponse(f\"Paiements - Modifier {id}\")\ndef delete(request, id):\n    return HttpResponse(f\"Paiements - Supprimer {id}\")",
+        "detail": "paiements.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "kind": 2,
+        "importPath": "paiements.views",
+        "description": "paiements.views",
+        "peekOfCode": "def delete(request, id):\n    return HttpResponse(f\"Paiements - Supprimer {id}\")",
+        "detail": "paiements.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "patients.migrations.0001_initial",
+        "description": "patients.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Patient',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('nom', models.CharField(max_length=100)),",
+        "detail": "patients.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "patients.migrations.0002_patient_adresse_patient_groupe_sanguin_patient_sexe_and_more",
+        "description": "patients.migrations.0002_patient_adresse_patient_groupe_sanguin_patient_sexe_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('patients', '0001_initial'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='patient',\n            name='adresse',\n            field=models.TextField(blank=True, null=True),",
+        "detail": "patients.migrations.0002_patient_adresse_patient_groupe_sanguin_patient_sexe_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "PatientAdmin",
+        "kind": 6,
+        "importPath": "patients.admin",
+        "description": "patients.admin",
+        "peekOfCode": "class PatientAdmin(admin.ModelAdmin):\n    # Colonnes affichées dans la liste globale\n    list_display = ('user', 'telephone', 'date_naissance', 'groupe_sanguin')\n    # Barre de recherche rapide\n    search_fields = ('user__username', 'user__last_name', 'telephone')\n    # Filtres latéraux pratiques\n    list_filter = ('groupe_sanguin',)",
+        "detail": "patients.admin",
+        "documentation": {}
+    },
+    {
+        "label": "PatientsConfig",
+        "kind": 6,
+        "importPath": "patients.apps",
+        "description": "patients.apps",
+        "peekOfCode": "class PatientsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'patients'",
+        "detail": "patients.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Patient",
+        "kind": 6,
+        "importPath": "patients.models",
+        "description": "patients.models",
+        "peekOfCode": "class Patient(models.Model):\n    # Liste des choix pour le sexe\n    SEXE_CHOICES = [\n        ('M', 'Masculin'),\n        ('F', 'Féminin'),\n    ]\n    # Lien obligatoire avec le compte de connexion\n    user = models.OneToOneField(User, on_delete=models.CASCADE, related_name='patient', null=True, blank=True)\n    # Vos champs d'origine\n    nom = models.CharField(max_length=100)",
+        "detail": "patients.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "patients.urls",
+        "description": "patients.urls",
+        "peekOfCode": "app_name = 'patients'\nurlpatterns = [\n    path('', views.index, name='index'),\n    path('list/', views.list_patients, name='list'),\n    path('<int:id>/', views.detail, name='detail'),\n    path('create/', views.create, name='create'),\n    path('<int:id>/edit/', views.edit, name='edit'),\n    path('<int:id>/delete/', views.delete, name='delete'),\n]",
+        "detail": "patients.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "patients.urls",
+        "description": "patients.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.index, name='index'),\n    path('list/', views.list_patients, name='list'),\n    path('<int:id>/', views.detail, name='detail'),\n    path('create/', views.create, name='create'),\n    path('<int:id>/edit/', views.edit, name='edit'),\n    path('<int:id>/delete/', views.delete, name='delete'),\n]",
+        "detail": "patients.urls",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "patients.views",
+        "description": "patients.views",
+        "peekOfCode": "def index(request):\n    \"\"\"Redirige l'index de l'application vers la liste des patients.\"\"\"\n    # CORRECTION : Assurez-vous que le nom de la route correspond à vos URLs (souvent 'list_patients' ou 'list')\n    return redirect('patients:list')\n@login_required\ndef list_patients(request):\n    # Sécurité : Réservé aux admins ou médecins\n    if not request.user.is_superuser and not hasattr(request.user, 'medecin'):\n        return redirect('comptes:index')\n    # Récupération de la recherche depuis le formulaire GET",
+        "detail": "patients.views",
+        "documentation": {}
+    },
+    {
+        "label": "list_patients",
+        "kind": 2,
+        "importPath": "patients.views",
+        "description": "patients.views",
+        "peekOfCode": "def list_patients(request):\n    # Sécurité : Réservé aux admins ou médecins\n    if not request.user.is_superuser and not hasattr(request.user, 'medecin'):\n        return redirect('comptes:index')\n    # Récupération de la recherche depuis le formulaire GET\n    search_query = request.GET.get('search', '')\n    # Filtrage dynamique si une recherche est soumise\n    if search_query:\n        patients = Patient.objects.filter(\n            Q(nom__icontains=search_query) | ",
+        "detail": "patients.views",
+        "documentation": {}
+    },
+    {
+        "label": "detail",
+        "kind": 2,
+        "importPath": "patients.views",
+        "description": "patients.views",
+        "peekOfCode": "def detail(request, id):\n    if not request.user.is_superuser and not hasattr(request.user, 'medecin'):\n        return redirect('comptes:index')\n    patient = get_object_or_404(Patient, id=id)\n    return render(request, 'patients/detail_patient.html', {'patient': patient})\n@login_required\ndef create(request):\n    if not request.user.is_superuser and not hasattr(request.user, 'medecin'):\n        return redirect('comptes:index')\n    if request.method == 'POST':",
+        "detail": "patients.views",
+        "documentation": {}
+    },
+    {
+        "label": "create",
+        "kind": 2,
+        "importPath": "patients.views",
+        "description": "patients.views",
+        "peekOfCode": "def create(request):\n    if not request.user.is_superuser and not hasattr(request.user, 'medecin'):\n        return redirect('comptes:index')\n    if request.method == 'POST':\n        # Logique d'enregistrement du formulaire ici (ex: form.save())\n        messages.success(request, \"Le patient a été enregistré avec succès.\")\n        return redirect('patients:list')\n    return render(request, 'patients/creer_patient.html')\n@login_required\ndef edit(request, id):",
+        "detail": "patients.views",
+        "documentation": {}
+    },
+    {
+        "label": "edit",
+        "kind": 2,
+        "importPath": "patients.views",
+        "description": "patients.views",
+        "peekOfCode": "def edit(request, id):\n    if not request.user.is_superuser and not hasattr(request.user, 'medecin'):\n        return redirect('comptes:index')\n    patient = get_object_or_404(Patient, id=id)\n    if request.method == 'POST':\n        messages.success(request, \"Les informations du patient ont été mises à jour.\")\n        return redirect('patients:detail', id=patient.id)\n    return render(request, 'patients/modifier_patient.html', {'patient': patient})\n@login_required\ndef delete(request, id):",
+        "detail": "patients.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "kind": 2,
+        "importPath": "patients.views",
+        "description": "patients.views",
+        "peekOfCode": "def delete(request, id):\n    if not request.user.is_superuser and not hasattr(request.user, 'medecin'):\n        return redirect('comptes:index')\n    patient = get_object_or_404(Patient, id=id)\n    if request.method == 'POST':\n        patient.delete()\n        messages.success(request, \"Le dossier du patient a été définitivement supprimé.\")\n        return redirect('patients:list')\n    return render(request, 'patients/confirmer_suppression.html', {'patient': patient})",
+        "detail": "patients.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "rdv.migrations.0001_initial",
+        "description": "rdv.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('medecins', '0001_initial'),\n        ('patients', '0002_patient_adresse_patient_groupe_sanguin_patient_sexe_and_more'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='RendezVous',\n            fields=[",
+        "detail": "rdv.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "rdv.migrations.0002_auto_20260601_0011",
+        "description": "rdv.migrations.0002_auto_20260601_0011",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('rdv', '0001_initial'),\n    ]\n    operations = [\n    ]",
+        "detail": "rdv.migrations.0002_auto_20260601_0011",
+        "documentation": {}
+    },
+    {
+        "label": "RendezVousAdmin",
+        "kind": 6,
+        "importPath": "rdv.admin",
+        "description": "rdv.admin",
+        "peekOfCode": "class RendezVousAdmin(admin.ModelAdmin):\n    list_display = ('id', 'patient', 'medecin', 'date_rdv', 'heure_rdv', 'motif', 'statut')\n    list_filter = ('statut', 'date_rdv', 'medecin')\n    search_fields = ('patient__nom', 'patient__prenom', 'motif')\n    list_editable = ('statut',)  # Permet de changer le statut directement depuis la liste\n    date_hierarchy = 'date_rdv'  # Barre chronologique en haut du panneau",
+        "detail": "rdv.admin",
+        "documentation": {}
+    },
+    {
+        "label": "RdvConfig",
+        "kind": 6,
+        "importPath": "rdv.apps",
+        "description": "rdv.apps",
+        "peekOfCode": "class RdvConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'rdv'",
+        "detail": "rdv.apps",
+        "documentation": {}
+    },
+    {
+        "label": "RendezVous",
+        "kind": 6,
+        "importPath": "rdv.models",
+        "description": "rdv.models",
+        "peekOfCode": "class RendezVous(models.Model):\n    STATUT_CHOICES = [\n        ('EN_ATTENTE', 'En attente de validation'),\n        ('CONFIRME', 'Confirmé'),\n        ('ANNULE', 'Annulé'),\n    ]\n    MOTIF_CHOICES = [\n        ('consultation_generale', 'Consultation ORL Générale'),\n        ('audiometrie', 'Bilan Auditif / Audiométrie'),\n        ('sinusite', 'Troubles des Sinus / Nez bouché'),",
+        "detail": "rdv.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "rdv.urls",
+        "description": "rdv.urls",
+        "peekOfCode": "app_name = 'rdv'\nurlpatterns = [\n    path('', views.index, name='index'),\n    path('list/', views.list_rdv, name='list'),\n    path('<int:id>/', views.detail, name='detail'),\n    path('create/', views.create, name='create'),\n    path('<int:id>/edit/', views.edit, name='edit'),\n    path('<int:id>/delete/', views.delete, name='delete'),\n]",
+        "detail": "rdv.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "rdv.urls",
+        "description": "rdv.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.index, name='index'),\n    path('list/', views.list_rdv, name='list'),\n    path('<int:id>/', views.detail, name='detail'),\n    path('create/', views.create, name='create'),\n    path('<int:id>/edit/', views.edit, name='edit'),\n    path('<int:id>/delete/', views.delete, name='delete'),\n]",
+        "detail": "rdv.urls",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "rdv.views",
+        "description": "rdv.views",
+        "peekOfCode": "def index(request):\n    \"\"\"Redirige l'index vers la liste sécurisée des rendez-vous.\"\"\"\n    return redirect('rdv:list')\n@login_required\ndef list_rdv(request):\n    \"\"\"Affiche les rendez-vous selon le rôle de l'utilisateur.\"\"\"\n    user = request.user\n    if user.is_superuser or hasattr(user, 'medecin'):\n        # Les médecins et administrateurs visualisent tout l'agenda ORL\n        rendezvous = RendezVous.objects.all().order_by('date_rdv', 'heure_rdv')",
+        "detail": "rdv.views",
+        "documentation": {}
+    },
+    {
+        "label": "list_rdv",
+        "kind": 2,
+        "importPath": "rdv.views",
+        "description": "rdv.views",
+        "peekOfCode": "def list_rdv(request):\n    \"\"\"Affiche les rendez-vous selon le rôle de l'utilisateur.\"\"\"\n    user = request.user\n    if user.is_superuser or hasattr(user, 'medecin'):\n        # Les médecins et administrateurs visualisent tout l'agenda ORL\n        rendezvous = RendezVous.objects.all().order_by('date_rdv', 'heure_rdv')\n    else:\n        # Le patient connecté ne voit strictement que ses propres rendez-vous\n        rendezvous = RendezVous.objects.filter(patient__user=user).order_by('date_rdv', 'heure_rdv')\n    return render(request, 'rdv/liste.html', {'rendezvous': rendezvous})",
+        "detail": "rdv.views",
+        "documentation": {}
+    },
+    {
+        "label": "detail",
+        "kind": 2,
+        "importPath": "rdv.views",
+        "description": "rdv.views",
+        "peekOfCode": "def detail(request, id):\n    \"\"\"Affiche les détails d'un rendez-vous spécifique avec contrôle d'accès.\"\"\"\n    user = request.user\n    if user.is_superuser or hasattr(user, 'medecin'):\n        rdv = get_object_or_404(RendezVous, id=id)\n    else:\n        # Sécurité : Le patient ne peut charger le rendez-vous que s'il lui appartient\n        rdv = get_object_or_404(RendezVous, id=id, patient__user=user)\n    return render(request, 'rdv/detail_rdv.html', {'rdv': rdv})\n@login_required",
+        "detail": "rdv.views",
+        "documentation": {}
+    },
+    {
+        "label": "create",
+        "kind": 2,
+        "importPath": "rdv.views",
+        "description": "rdv.views",
+        "peekOfCode": "def create(request):\n    \"\"\"Gère la création d'un nouveau rendez-vous.\"\"\"\n    if request.method == 'POST':\n        # La logique de traitement du formulaire sera insérée ici (via ModelForm)\n        messages.success(request, \"Votre demande de rendez-vous a été enregistrée et est en attente.\")\n        return redirect('rdv:list')\n    return render(request, 'rdv/creer_rdv.html')\n@login_required\ndef edit(request, id):\n    \"\"\"Permet de modifier un rendez-vous (restreint ou complet selon le rôle).\"\"\"",
+        "detail": "rdv.views",
+        "documentation": {}
+    },
+    {
+        "label": "edit",
+        "kind": 2,
+        "importPath": "rdv.views",
+        "description": "rdv.views",
+        "peekOfCode": "def edit(request, id):\n    \"\"\"Permet de modifier un rendez-vous (restreint ou complet selon le rôle).\"\"\"\n    user = request.user\n    if user.is_superuser or hasattr(user, 'medecin'):\n        rdv = get_object_or_404(RendezVous, id=id)\n    else:\n        # Sécurité : Un patient ne peut modifier que sa propre demande\n        rdv = get_object_or_404(RendezVous, id=id, patient__user=user)\n    if request.method == 'POST':\n        # La logique de mise à jour du formulaire sera insérée ici",
+        "detail": "rdv.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "kind": 2,
+        "importPath": "rdv.views",
+        "description": "rdv.views",
+        "peekOfCode": "def delete(request, id):\n    \"\"\"Supprime ou annule un rendez-vous de manière sécurisée.\"\"\"\n    user = request.user\n    if user.is_superuser or hasattr(user, 'medecin'):\n        rdv = get_object_or_404(RendezVous, id=id)\n    else:\n        # Sécurité : Un patient ne peut supprimer/annuler que son propre rendez-vous\n        rdv = get_object_or_404(RendezVous, id=id, patient__user=user)\n    if request.method == 'POST':\n        rdv.delete()",
+        "detail": "rdv.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "SGRDV_ORL.asgi",
+        "description": "SGRDV_ORL.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "SGRDV_ORL.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "SGRDV_ORL.settings",
+        "description": "SGRDV_ORL.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-&n_=i3(5*6i2z3i81nn1nch*3!@b@z%3t060@1qmx9gq%t4y2f'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "SGRDV_ORL.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "SGRDV_ORL.settings",
+        "description": "SGRDV_ORL.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-&n_=i3(5*6i2z3i81nn1nch*3!@b@z%3t060@1qmx9gq%t4y2f'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'jazzmin',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
+        "detail": "SGRDV_ORL.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "SGRDV_ORL.settings",
+        "description": "SGRDV_ORL.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'jazzmin',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "detail": "SGRDV_ORL.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "SGRDV_ORL.settings",
+        "description": "SGRDV_ORL.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'jazzmin',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "SGRDV_ORL.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "SGRDV_ORL.settings",
+        "description": "SGRDV_ORL.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'jazzmin',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'comptes',\n    'patients',",
+        "detail": "SGRDV_ORL.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "SGRDV_ORL.settings",
+        "description": "SGRDV_ORL.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'SGRDV_ORL.urls'",
+        "detail": "SGRDV_ORL.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "SGRDV_ORL.settings",
+        "description": "SGRDV_ORL.settings",
+        "peekOfCode": "ROOT_URLCONF = 'SGRDV_ORL.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "SGRDV_ORL.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "SGRDV_ORL.settings",
+        "description": "SGRDV_ORL.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "SGRDV_ORL.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "SGRDV_ORL.settings",
+        "description": "SGRDV_ORL.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'SGRDV_ORL.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "SGRDV_ORL.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "SGRDV_ORL.settings",
+        "description": "SGRDV_ORL.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "SGRDV_ORL.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "SGRDV_ORL.settings",
+        "description": "SGRDV_ORL.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "SGRDV_ORL.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "SGRDV_ORL.settings",
+        "description": "SGRDV_ORL.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / 'static',\n]",
+        "detail": "SGRDV_ORL.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "SGRDV_ORL.settings",
+        "description": "SGRDV_ORL.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / 'static',\n]\n# Default primary key field type",
+        "detail": "SGRDV_ORL.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "SGRDV_ORL.settings",
+        "description": "SGRDV_ORL.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / 'static',\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field",
+        "detail": "SGRDV_ORL.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "SGRDV_ORL.settings",
+        "description": "SGRDV_ORL.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / 'static',\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "SGRDV_ORL.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "SGRDV_ORL.settings",
+        "description": "SGRDV_ORL.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / 'static',\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nJAZZMIN_SETTINGS = {\n    # Titres du site\n    \"site_title\": \"BERNADETTE Admin\",",
+        "detail": "SGRDV_ORL.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "SGRDV_ORL.settings",
+        "description": "SGRDV_ORL.settings",
+        "peekOfCode": "STATICFILES_DIRS = [\n    BASE_DIR / 'static',\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nJAZZMIN_SETTINGS = {\n    # Titres du site\n    \"site_title\": \"BERNADETTE Admin\",\n    \"site_header\": \"BERNADETTE\",",
+        "detail": "SGRDV_ORL.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "SGRDV_ORL.settings",
+        "description": "SGRDV_ORL.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nJAZZMIN_SETTINGS = {\n    # Titres du site\n    \"site_title\": \"BERNADETTE Admin\",\n    \"site_header\": \"BERNADETTE\",\n    \"site_brand\": \"BERNADETTE ORL\",\n    \"welcome_sign\": \"Bienvenue sur le panel d'administration BERNADETTE\",\n    \"copyright\": \"BERNADETTE - Assistante Sanitaire ORL\",\n    \"search_model\": [\"patients.Patient\", \"rdv.RendezVous\"],\n    # Liens du menu du haut",
+        "detail": "SGRDV_ORL.settings",
+        "documentation": {}
+    },
+    {
+        "label": "JAZZMIN_SETTINGS",
+        "kind": 5,
+        "importPath": "SGRDV_ORL.settings",
+        "description": "SGRDV_ORL.settings",
+        "peekOfCode": "JAZZMIN_SETTINGS = {\n    # Titres du site\n    \"site_title\": \"BERNADETTE Admin\",\n    \"site_header\": \"BERNADETTE\",\n    \"site_brand\": \"BERNADETTE ORL\",\n    \"welcome_sign\": \"Bienvenue sur le panel d'administration BERNADETTE\",\n    \"copyright\": \"BERNADETTE - Assistante Sanitaire ORL\",\n    \"search_model\": [\"patients.Patient\", \"rdv.RendezVous\"],\n    # Liens du menu du haut\n    \"topmenu_links\": [",
+        "detail": "SGRDV_ORL.settings",
+        "documentation": {}
+    },
+    {
+        "label": "JAZZMIN_UI_TWEAKS",
+        "kind": 5,
+        "importPath": "SGRDV_ORL.settings",
+        "description": "SGRDV_ORL.settings",
+        "peekOfCode": "JAZZMIN_UI_TWEAKS = {\n    \"navbar_small_text\": False,\n    \"footer_small_text\": False,\n    \"body_small_text\": False,\n    \"brand_small_text\": False,\n    # Couleur du bandeau supérieur (Couleur sombre de votre navbar)\n    \"navbar\": \"navbar-teal\", \n    \"theme\": \"cerulean\", # Base moderne\n    \"sidebar\": \"sidebar-dark-teal\", # Couleur de fond du menu latéral\n    # Style des boutons et éléments actifs (Le vert vif de PrimeDental)",
+        "detail": "SGRDV_ORL.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "SGRDV_ORL.urls",
+        "description": "SGRDV_ORL.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', __import__('SGRDV_ORL.views').views.home, name='home'),\n    path('admin/', admin.site.urls),\n    path('comptes/', include('comptes.urls')),\n    path('medecins/', include('medecins.urls')),\n    path('patients/', include('patients.urls')),\n    path('rdv/', include('rdv.urls')),\n    path('paiements/', include('paiements.urls')),\n]\n# Personnalisation des textes de l'administration Django",
+        "detail": "SGRDV_ORL.urls",
+        "documentation": {}
+    },
+    {
+        "label": "admin.site.site_header",
+        "kind": 5,
+        "importPath": "SGRDV_ORL.urls",
+        "description": "SGRDV_ORL.urls",
+        "peekOfCode": "admin.site.site_header = \"BERNADETTE — Administration ORL\"\nadmin.site.site_title = \"Panel Admin BERNADETTE\"\nadmin.site.index_title = \"Systeme de gestion de rendez-vous\"",
+        "detail": "SGRDV_ORL.urls",
+        "documentation": {}
+    },
+    {
+        "label": "admin.site.site_title",
+        "kind": 5,
+        "importPath": "SGRDV_ORL.urls",
+        "description": "SGRDV_ORL.urls",
+        "peekOfCode": "admin.site.site_title = \"Panel Admin BERNADETTE\"\nadmin.site.index_title = \"Systeme de gestion de rendez-vous\"",
+        "detail": "SGRDV_ORL.urls",
+        "documentation": {}
+    },
+    {
+        "label": "admin.site.index_title",
+        "kind": 5,
+        "importPath": "SGRDV_ORL.urls",
+        "description": "SGRDV_ORL.urls",
+        "peekOfCode": "admin.site.index_title = \"Systeme de gestion de rendez-vous\"",
+        "detail": "SGRDV_ORL.urls",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "SGRDV_ORL.views",
+        "description": "SGRDV_ORL.views",
+        "peekOfCode": "def home(request):\n    return render(request, 'home.html')",
+        "detail": "SGRDV_ORL.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "SGRDV_ORL.wsgi",
+        "description": "SGRDV_ORL.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "SGRDV_ORL.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'SGRDV_ORL.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]

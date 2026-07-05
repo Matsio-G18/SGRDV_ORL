@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Facture #FAC-{{ paiement.id }} - BERNADETTE{% endblock %}
+
+{% block content %}
+<main class="container" style="margin-top: 120px; margin-bottom: 50px;" data-aos="fade-up">
+    <!-- En-tête de retour -->
+    <div class="mb-4 d-print-none">
+        <a href="{% url 'paiements:list' %}" class="text-decoration-none text-muted small">
+            <i class="fas fa-arrow-left me-1"></i> Retour au suivi des paiements
+        </a>
+    </div>
+
+    <div class="row">
+        <div class="col-12 col-lg-8 mx-auto">
+            <!-- Zone imprimable de la facture -->
+            <div class="card border-0 shadow-sm rounded-3 p-4 p-md-5 bg-white" id="invoice">
+                <!-- En-tête du Reçu -->
+                <div class="d-flex justify-content-between align-items-start border-bottom pb-4 mb-4">
+                    <div>
+                        <h2 class="fw-bold m-0 text-uppercase" style="color: #0f766e;"><i class="fa-solid fa-stethoscope me-2"></i>BERNADETTE</h2>
+                        <p class="text-muted small m-0 mt-1">Assistance Sanitaire & Clinique ORL</p>
+                        <p class="text-muted small m-0">Brazzaville, République du Congo</p>
+                    </div>
+                    <div class="text-end">
+                        <h4 class="fw-bold text-dark m-0">REÇU DE PAIEMENT</h4>
+                        <span class="text-secondary font-monospace d-block mt-1">Réf : #FAC-{{ paiement.id }}</span>
+                        <span class="text-muted small">Émis le : {{ paiement.date|date:"d/m/Y" }}</span>
+                    </div>
+                </div>
+
+                <!-- Informations Patient -->
+                <div class="row g-3 mb-5">
+                    <div class="col-sm-6">
+                        <span class="text-muted small d-block uppercase fw-semibold">Facturé à :</span>
+                        <strong class="text-dark fs-5 d-block">{{ paiement.patient.prenom }} {{ paiement.patient.nom }}</strong>
+                        <span class="text-secondary small">ID Patient : #{{ paiement.patient.id }}</span>
+                        <span class="text-secondary d-block small">Tél : {{ paiement.patient.telephone }}</span>
+                    </div>
+                    <div class="col-sm-6 text-sm-end">
+                        <span class="text-muted small d-block uppercase fw-semibold">Statut du Règlement :</span>
+                        {% if paiement.statut == 'paye' %}
+                            <span class="badge rounded-pill mt-1 border px-3 py-2" style="background-color: #d1fae5; color: #065f46; border-color: #a7f3d0 !important; font-size: 0.9rem;">RÈGLEMENT PERÇU</span>
+                        {% else %}
+                            <span class="badge rounded-pill mt-1 border px-3 py-2" style="background-color: #fee2e2; color: #991b1b; border-color: #fca5a5 !important; font-size: 0.9rem;">EN ATTENTE DE COMPTABILISATION</span>
+                        {% endif %}
+                    </div>
+                </div>
+
+                <!-- Tableau de désignation de l'acte ORL -->
+                <div class="table-responsive mb-4">
+                    <table class="table align-middle border">
+                        <thead style="background-color: #f8fafc;">
+                            <tr>
+                                <th class="ps-3 py-2" style="color: #0f766e;">Description de l'acte médical</th>
+                                <th class="py-2" style="color: #0f766e;">Mode d'encaissement</th>
+                                <th class="pe-3 py-2 text-end" style="color: #0f766e;">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="ps-3 py-3 text-dark fw-medium">
+                                    {{ paiement.description|default:"Consultation / Traitement spécialisé ORL" }}
+                                </td>
+                                <td class="py-3 text-secondary">
+                                    {{ paiement.get_mode_paiement_display }}
+                                </td>
+                                <td class="pe-3 py-3 text-end fw-bold text-dark fs-5">
+                                    {{ paiement.montant }} FCFA
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Pied de facture -->
+                <div class="text-center border-top pt-4 mt-5 text-muted small">
+                    <p class="mb-1">Pour toute réclamation concernant ce reçu, veuillez contacter le secrétariat médical.</p>
+                    <p class="mb-0 fw-bold">&copy; 2026 BERNADETTE ORL — Merci pour votre confiance.</p>
+                </div>
+            </div>
+
+            <!-- Boutons d'action (masqués lors de l'impression physique) -->
+            <div class="d-flex justify-content-end gap-2 mt-4 d-print-none">
+                <button onclick="window.print();" class="btn btn-secondary rounded-pill px-4">
+                    <i class="fa-solid fa-print me-2"></i>Imprimer le reçu
+                </button>
+                {% if user.is_superuser %}
+                <a href="{% url 'paiements:edit' paiement.id %}" class="btn text-white px-4 rounded-pill" style="background-color: #0f766e; border: none;">
+                    <i class="fa-solid fa-pen-to-square me-2"></i>Modifier l'écriture
+                </a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}

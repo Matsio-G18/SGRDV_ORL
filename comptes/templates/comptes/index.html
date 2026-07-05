@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Tableau de bord - BERNADETTE{% endblock %}
+
+{% block content %}
+<div class="container" style="margin-top: 120px; margin-bottom: 50px;">
+    
+    <!-- En-tête de bienvenue personnalisé -->
+    <div class="row mb-5">
+        <div class="col-100 p-4 rounded-3 text-white shadow-sm" style="background: linear-gradient(135deg, #0f766e 0%, #14b8a6 100%);">
+            <h1 class="text-white mb-2">👋 Bienvenue, {{ user.username }} !</h1>
+            <p class="mb-0 opacity-90">
+                {% if user.is_superuser %}
+                    Espace d'Administration Globale — Gestion de la clinique ORL BERNADETTE.
+                {% elif user.medecin %}
+                    Espace Praticien — Suivi de vos consultations et de vos patients.
+                {% else %}
+                    Espace Patient — Suivi de vos rendez-vous et accès à vos documents médicaux.
+                {% endif %}
+            </p>
+        </div>
+    </div>
+
+    <!-- Contenu conditionnel selon le Rôle de l'utilisateur -->
+    <div class="row g-4">
+        
+        {% if user.is_superuser %}
+            <!-- ================= TABLEAU DE BORD ADMINISTRATEUR ================= -->
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm p-4 text-center rounded-3" style="border-top: 4px solid #0f766e !important;">
+                    <div class="mb-3 d-inline-flex align-items-center justify-content-center rounded-circle mx-auto" style="width: 60px; height: 60px; background-color: rgba(15, 118, 110, 0.1);">
+                        <i class="fa-solid fa-users-gear" style="color: #0f766e; font-size: 1.5rem;"></i>
+                    </div>
+                    <h4 class="fw-bold mb-3" style="color: #115e59;">Gestion des Comptes</h4>
+                    <p class="text-muted small flex-grow-1">Valider, modifier ou suspendre les accès des médecins et secrétaires.</p>
+                    <a href="/admin/auth/user/" class="btn text-white btn-sm rounded-pill px-4 mt-3" style="background-color: #0f766e;">Gérer</a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm p-4 text-center rounded-3" style="border-top: 4px solid #14b8a6 !important;">
+                    <div class="mb-3 d-inline-flex align-items-center justify-content-center rounded-circle mx-auto" style="width: 60px; height: 60px; background-color: rgba(20, 184, 166, 0.1);">
+                        <i class="fa-solid fa-file-invoice-dollar" style="color: #14b8a6; font-size: 1.5rem;"></i>
+                    </div>
+                    <h4 class="fw-bold mb-3" style="color: #0f766e;">Statistiques & Financier</h4>
+                    <p class="text-muted small flex-grow-1">Consulter l'état des paiements perçus et rapports financiers des actes ORL.</p>
+                    <a href="/paiements/" class="btn text-white btn-sm rounded-pill px-4 mt-3" style="background-color: #14b8a6;">Voir les rapports</a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm p-4 text-center rounded-3" style="border-top: 4px solid #0f766e !important;">
+                    <div class="mb-3 d-inline-flex align-items-center justify-content-center rounded-circle mx-auto" style="width: 60px; height: 60px; background-color: rgba(15, 118, 110, 0.1);">
+                        <i class="fa-solid fa-hospital" style="color: #0f766e; font-size: 1.5rem;"></i>
+                    </div>
+                    <h4 class="fw-bold mb-3" style="color: #115e59;">Panel Django</h4>
+                    <p class="text-muted small flex-grow-1">Accéder à la base de données brute de Django pour modifier les tables de l'application.</p>
+                    <a href="/admin/" class="btn text-white btn-sm rounded-pill px-4 mt-3" style="background-color: #0f766e;">Administration Django</a>
+                </div>
+            </div>
+
+        {% else %}
+            <!-- ================= TABLEAU DE BORD PATIENT (Par défaut) ================= -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm p-4 text-center rounded-3" style="border-top: 4px solid #0f766e !important;">
+                    <div class="mb-3 d-inline-flex align-items-center justify-content-center rounded-circle mx-auto" style="width: 60px; height: 60px; background-color: rgba(15, 118, 110, 0.1);">
+                        <i class="fa-solid fa-calendar-plus" style="color: #0f766e; font-size: 1.5rem;"></i>
+                    </div>
+                    <h4 class="fw-bold mb-3" style="color: #115e59;">Prendre RDV</h4>
+                    <p class="text-muted small flex-grow-1">Planifier une nouvelle consultation avec un oto-rhino-laryngologiste.</p>
+                    <a href="/rdv/" class="btn text-white btn-sm rounded-pill px-4 mt-3" style="background-color: #0f766e;">Prendre rendez-vous</a>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm p-4 text-center rounded-3" style="border-top: 4px solid #14b8a6 !important;">
+                    <div class="mb-3 d-inline-flex align-items-center justify-content-center rounded-circle mx-auto" style="width: 60px; height: 60px; background-color: rgba(20, 184, 166, 0.1);">
+                        <i class="fa-solid fa-clock-history" style="color: #14b8a6; font-size: 1.5rem;"></i>
+                    </div>
+                    <h4 class="fw-bold mb-3" style="color: #0f766e;">Mes Rendez-vous</h4>
+                    <p class="text-muted small flex-grow-1">Consulter l'état de vos demandes, vos dates de passage et l'historique des consultations.</p>
+                    <a href="/rdv/" class="btn text-white btn-sm rounded-pill px-4 mt-3" style="background-color: #14b8a6;">Consulter</a>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm p-4 text-center rounded-3" style="border-top: 4px solid #0f766e !important;">
+                    <div class="mb-3 d-inline-flex align-items-center justify-content-center rounded-circle mx-auto" style="width: 60px; height: 60px; background-color: rgba(15, 118, 110, 0.1);">
+                        <i class="fa-solid fa-id-card-medical" style="color: #0f766e; font-size: 1.5rem;"></i>
+                    </div>
+                    <h4 class="fw-bold mb-3" style="color: #115e59;">Mon Dossier Patient</h4>
+                    <p class="text-muted small flex-grow-1">Mettre à jour vos coordonnées de contact et vérifier vos fiches médicales.</p>
+                    <a href="/patients/" class="btn text-white btn-sm rounded-pill px-4 mt-3" style="background-color: #0f766e;">Ouvrir le dossier</a>
+                </div>
+            </div>
+        {% endif %}
+
+    </div>
+</div>
+{% endblock %}

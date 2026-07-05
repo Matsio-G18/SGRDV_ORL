@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block title %}Notifications - BERNADETTE{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <div>
+                    <h2>Notifications</h2>
+                    <p class="text-muted">Toutes vos alertes liées aux rendez-vous.</p>
+                </div>
+                <form method="post" class="m-0">
+                    {% csrf_token %}
+                    <button type="submit" class="btn btn-outline-primary">Marquer comme lues</button>
+                </form>
+            </div>
+
+            {% if notifications %}
+                <div class="list-group">
+                    {% for notification in notifications %}
+                        <a href="{{ notification.url }}" class="list-group-item list-group-item-action {% if not notification.is_read %}list-group-item-warning{% endif %}">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">{% if not notification.is_read %}<strong>Nouveau</strong>{% else %}Notification{% endif %}</h5>
+                                <small>{{ notification.created_at|date:"d/m/Y H:i" }}</small>
+                            </div>
+                            <p class="mb-1">{{ notification.message }}</p>
+                            {% if notification.url %}
+                                <small class="text-muted">Voir le rendez-vous</small>
+                            {% endif %}
+                        </a>
+                    {% endfor %}
+                </div>
+            {% else %}
+                <div class="alert alert-info">Vous n'avez pas de notifications pour le moment.</div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

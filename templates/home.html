@@ -1,0 +1,130 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Accueil - BERNADETTE Assistance Sanitaire ORL{% endblock %}
+
+{% block content %}
+<!-- Section Héros avec présentation de la clinique (NETTOYÉ : Retrait data-aos) -->
+<section class="hero-modern" style="margin-top: 120px; background: linear-gradient(135deg, rgba(15, 118, 110, 0.03) 0%, rgba(20, 184, 166, 0.03) 100%); padding: 4rem 0 2rem 0;">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <!-- TEXTE GAUCHE (Contenu d'accueil) -->
+            <div class="col-md-6">
+                <h5 class="text-uppercase fw-bold mb-2" style="color: #14b8a6; letter-spacing: 1px;">Assistance Sanitaire Spécialisée</h5>
+                <h1 class="hero-title fw-bold display-5 mb-3" style="color: #115e59; font-family: 'Roboto', sans-serif;">
+                    Votre Santé ORL, Notre Priorité Absolue
+                </h1>
+                <p class="hero-desc text-muted mb-4 fs-5">
+                    Consultations et bilans spécialisés pour les troubles de l'oreille, du nez et de la gorge. 
+                    Soumettez votre demande de consultation en quelques instants ci-dessous, **sans obligation de créer un compte**.
+                </p>
+
+                <!-- Zone d'orientation pour les utilisateurs possédant déjà un compte -->
+                {% if not user.is_authenticated %}
+                <div class="p-3 rounded-3 bg-light border mb-4 d-inline-block text-start">
+                    <span class="text-secondary small d-block mb-1">Déjà inscrit dans notre clinique ?</span>
+                    <a href="{% url 'comptes:login' %}" class="fw-bold text-decoration-none small" style="color: #0f766e;">
+                        <i class="fa-solid fa-right-to-bracket me-1"></i> Connectez-vous à votre espace privé
+                    </a>
+                </div>
+                {% endif %}
+
+                <!-- Indicateur de confiance -->
+                <div class="hero-rating d-flex align-items-center gap-2 mt-2">
+                    <span class="rating-value fw-bold fs-3" style="color: #0f766e;">4.9★</span>
+                    <span class="rating-text text-muted small fw-medium">Indice de satisfaction de nos patients</span>
+                </div>
+            </div>
+
+            <!-- IMAGE DROITE (NETTOYÉ : Retrait data-aos) -->
+            <div class="col-md-6 text-center position-relative">
+                <img src="{% static 'images/berna.jpg' %}" class="hero-img img-fluid rounded-circle shadow" alt="Clinique BERNADETTE ORL" style="object-fit: cover; aspect-ratio: 1 / 1; max-width: 360px; border: 6px solid #ffffff;">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Bloc d'affichage des notifications de succès ou d'erreur -->
+{% if messages %}
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-12">
+                {% for message in messages %}
+                    <div class="alert alert-{% if message.tags == 'error' %}danger{% else %}success{% endif %} alert-dismissible fade show border-0 shadow-sm" role="alert" style="{% if message.tags == 'error' %}background-color: #fee2e2; color: #991b1b; border-left: 4px solid #ef4444 !important;{% else %}background-color: #d1fae5; color: #065f46; border-left: 4px solid #10b981 !important;{% endif %}">
+                        <i class="fa-solid {% if message.tags == 'error' %}fa-circle-xmark{% else %}fa-circle-check{% endif %} me-2"></i> {{ message }}
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endif %}
+
+<!-- FORMULAIRE PREMIER : Prise de Rendez-vous ORL en libre accès (NETTOYÉ : Retrait data-aos) -->
+<section class="container my-5">
+    <div class="p-4 p-md-5 rounded-3 shadow-sm bg-white" style="border-top: 5px solid #0f766e;">
+        <div class="mb-4 text-center text-md-start">
+            <h3 class="fw-bold" style="color: #115e59;">
+                <i class="fa-solid fa-calendar-plus me-2" style="color: #14b8a6;"></i>Demande de Consultation Rapide
+            </h3>
+            <p class="text-muted small m-0">Remplissez ce formulaire pour transmettre directement votre dossier au secrétariat médical.</p>
+        </div>
+
+        <form action="/" method="POST" class="row g-4 align-items-end">
+            {% csrf_token %}
+            
+            <!-- Champ Nom du visiteur -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <label class="form-label fw-semibold text-secondary small">Nom & Prénom complet</label>
+                <div class="input-group">
+                    <span class="input-group-text bg-light text-muted border-end-0"><i class="fa-solid fa-user small"></i></span>
+                    <input type="text" name="patient_name" class="form-control border-start-0" placeholder="Ex: Jean Moundele" required>
+                </div>
+            </div>
+
+            <!-- Champ Téléphone -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <label class="form-label fw-semibold text-secondary small">Numéro de Téléphone</label>
+                <div class="input-group">
+                    <span class="input-group-text bg-light text-muted border-end-0"><i class="fa-solid fa-phone small"></i></span>
+                    <input type="tel" name="patient_phone" class="form-control border-start-0" placeholder="Ex: 06 820 9738" required>
+                </div>
+            </div>
+
+            <!-- Sélection du Motif Médical ORL -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <label class="form-label fw-semibold text-secondary small">Motif de consultation</label>
+                <div class="input-group">
+                    <span class="input-group-text bg-light text-muted border-end-0"><i class="fa-solid fa-stethoscope small"></i></span>
+                    <select name="service" class="form-select border-start-0" required>
+                        <option value="">Choisir un motif...</option>
+                        <option value="consultation_generale">Consultation ORL Générale</option>
+                        <option value="audiometrie">Bilan Auditif / Audiométrie</option>
+                        <option value="sinusite">Troubles des Sinus / Nez bouché</option>
+                        <option value="pharyngite">Maux de Gorge / Cordes Vocales</option>
+                        <option value="vertiges">Gestion des Vertiges / Équilibre</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Sélection de la Date -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <label class="form-label fw-semibold text-secondary small">Date souhaitée</label>
+                <div class="input-group">
+                    <span class="input-group-text bg-light text-muted border-end-0"><i class="fa-solid fa-calendar-days small"></i></span>
+                    <input type="date" name="appointment_date" class="form-control border-start-0" required>
+                </div>
+            </div>
+
+            <!-- Bouton de Soumission Principal -->
+            <div class="col-12 text-center text-md-end mt-4">
+                <button type="submit" class="btn text-white fw-bold px-5 py-2.5 rounded-pill shadow-sm" style="background-color: #0f766e; border: none; transition: transform 0.2s;">
+                    <i class="fa-solid fa-paper-plane me-2"></i>Envoyer ma demande
+                </button>
+            </div>
+        </form>
+    </div>
+</section>
+{% endblock %}

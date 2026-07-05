@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="alert alert-danger" role="alert">
+                <h4 class="alert-heading">Confirmation de suppression</h4>
+                <p>Êtes-vous sûr de vouloir supprimer ce rendez-vous ?</p>
+                <hr>
+                <p class="mb-0">Cette action est irréversible.</p>
+            </div>
+            
+            <div class="card">
+                <div class="card-body">
+                    <div class="mb-3">
+                        <p><strong>Patient :</strong> {{ rdv.patient.prenom }} {{ rdv.patient.nom }}</p>
+                        <p><strong>Date :</strong> {{ rdv.date_rdv|date:"d/m/Y" }} à {{ rdv.heure_rdv|time:"H:i" }}</p>
+                        <p><strong>Motif :</strong> {{ rdv.get_motif_display }}</p>
+                    </div>
+                    
+                    <form method="POST" class="mt-4">
+                        {% csrf_token %}
+                        <button type="submit" class="btn btn-danger">Oui, supprimer</button>
+                        <a href="{% url 'rdv:detail' rdv.id %}" class="btn btn-secondary">Annuler</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
