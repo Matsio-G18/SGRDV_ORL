@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 class Medecin(models.Model):
     SPECIALITE_CHOICES = [
         ('orl_generale', 'ORL Générale'),
-        ('audiologie', 'Audiologie / Troubles de l'audition'),
+        ('audiologie', "Audiologie / Troubles de l'audition"),
         ('rhinologie', 'Rhinologie / Sinus et cloisons nasales'),
         ('laryngologie', 'Laryngologie / Voix et cordes vocales'),
         ('orl_pediatrique', 'ORL Pédiatrique'),

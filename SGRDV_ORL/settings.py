@@ -121,6 +121,9 @@ STATICFILES_DIRS = [
     BASE_DIR / 'static',
 ]
 
+# Adresse d'envoi par défaut (modifiable via variable d'environnement)
+DEFAULT_FROM_EMAIL = os.getenv('DEFAULT_FROM_EMAIL', 'no-reply@sgrdv-orl.local')
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
@@ -192,3 +195,14 @@ JAZZMIN_UI_TWEAKS = {
         "success": "btn-success"
     }
 }
+
+# Utilisation du gestionnaire d'e-mails natif de Django
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_HOST = '://'
+
+# le SMTP 
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'donimatsiona@gmail.com'   # Votre e-mail d'envoi
+EMAIL_HOST_PASSWORD = 'votre_mot_de_passe'    # Votre clé d'application
+DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
