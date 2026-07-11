@@ -197,12 +197,18 @@ JAZZMIN_UI_TWEAKS = {
 }
 
 # Utilisation du gestionnaire d'e-mails natif de Django
+# Utilisation du gestionnaire d'e-mails natif de Django
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-# EMAIL_HOST = '://'
 
-# le SMTP 
+# LE SERVEUR SMTP (Ligne manquante corrigée)
+EMAIL_HOST = 'smtp.gmail.com'
+
+# Le port et protocole SMTP 
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+EMAIL_USE_SSL = False
+
 EMAIL_HOST_USER = 'donimatsiona@gmail.com'   # Votre e-mail d'envoi
-EMAIL_HOST_PASSWORD = 'dxpb ocjz eqzh aazf'    # Votre clé d'application
+EMAIL_HOST_PASSWORD = 'dxpb ocjz eqzh aazf'    # Votre clé d'application valide
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+
