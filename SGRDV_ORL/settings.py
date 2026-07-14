@@ -203,7 +203,6 @@ EMAIL_HOST = os.environ.get('EMAIL_HOST', 'smtp.gmail.com')
 # EMAIL_PORT = int(os.environ.get('EMAIL_PORT', 587))
 # Configuration spécifique pour passer à travers le pare-feu de Render
 EMAIL_PORT = 465
-EMAIL_USE_TLS = False
 EMAIL_USE_SSL = True 
 
 # 3. Le TLS : PIÈGE ! Render renvoie le texte "True", Django exige un booléen True
