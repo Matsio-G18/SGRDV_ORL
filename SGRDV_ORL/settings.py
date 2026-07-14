@@ -121,9 +121,6 @@ STATICFILES_DIRS = [
     BASE_DIR / 'static',
 ]
 
-# Adresse d'envoi par défaut (modifiable via variable d'environnement)
-DEFAULT_FROM_EMAIL = os.getenv('DEFAULT_FROM_EMAIL', 'no-reply@sgrdv-orl.local')
-
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
@@ -197,18 +194,21 @@ JAZZMIN_UI_TWEAKS = {
 }
 
 # Utilisation du gestionnaire d'e-mails natif de Django
-# Utilisation du gestionnaire d'e-mails natif de Django
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
-# LE SERVEUR SMTP (Ligne manquante corrigée)
-EMAIL_HOST = 'smtp.gmail.com'
+# 1. Le serveur (Texte)
+EMAIL_HOST = os.environ.get('EMAIL_HOST', 'smtp.gmail.com')
 
-# Le port et protocole SMTP 
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-EMAIL_USE_SSL = False
+# 2. Le port : PIÈGE ! Il faut obligatoirement le convertir en entier (int)
+EMAIL_PORT = int(os.environ.get('EMAIL_PORT', 587))
 
-EMAIL_HOST_USER = 'donimatsiona@gmail.com'   # Votre e-mail d'envoi
-EMAIL_HOST_PASSWORD = 'dxpb ocjz eqzh aazf'    # Votre clé d'application valide
+# 3. Le TLS : PIÈGE ! Render renvoie le texte "True", Django exige un booléen True
+EMAIL_USE_TLS = os.environ.get('EMAIL_USE_TLS', 'True') == 'True'
+
+# 4. Vos identifiants
+EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER', 'donimatsiona@gmail.com')
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD', 'dxpb ocjz eqzh aazf')
+
+# 5. Les variables pour vos vues
+ADMIN_EMAIL = os.environ.get('ADMIN_EMAIL', EMAIL_HOST_USER)
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
-
