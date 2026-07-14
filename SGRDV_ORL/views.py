@@ -47,7 +47,7 @@ def home(request):
                     message_content,
                     settings.EMAIL_HOST_USER,
                     [email],
-                    fail_silently=False,
+                    fail_silently=True,
                 )
             except Exception as e:
                 logger.exception("Erreur d'envoi email pour la demande de consultation")
