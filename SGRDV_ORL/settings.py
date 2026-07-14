@@ -194,7 +194,7 @@ JAZZMIN_UI_TWEAKS = {
 }
 
 # Utilisation du gestionnaire d'e-mails natif de Django
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # 1. Le serveur (Texte)
 EMAIL_HOST = os.environ.get('EMAIL_HOST', 'smtp.gmail.com')
