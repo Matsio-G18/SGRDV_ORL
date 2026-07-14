@@ -194,17 +194,21 @@ JAZZMIN_UI_TWEAKS = {
 }
 
 # Utilisation du gestionnaire d'e-mails natif de Django
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # 1. Le serveur (Texte)
 EMAIL_HOST = os.environ.get('EMAIL_HOST', 'smtp.gmail.com')
 
 # # 2. Le port : PIÈGE ! Il faut obligatoirement le convertir en entier (int)
 # EMAIL_PORT = int(os.environ.get('EMAIL_PORT', 587))
-# Configuration spécifique pour passer à travers le pare-feu de Render
+
 EMAIL_PORT = 465
-EMAIL_USE_SSL = True 
 EMAIL_USE_TLS = False
+EMAIL_USE_SSL = True 
+
+# 3. Le TLS : PIÈGE ! Render renvoie le texte "True", Django exige un booléen True
+EMAIL_USE_TLS = os.environ.get('EMAIL_USE_TLS', 'True') == 'True'
+
 # 4. Vos identifiants
 EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER', 'donimatsiona@gmail.com')
 EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD', 'dxpb ocjz eqzh aazf')
