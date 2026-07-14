@@ -206,7 +206,7 @@ EMAIL_PORT = 465
 EMAIL_USE_SSL = True 
 
 # 3. Le TLS : PIÈGE ! Render renvoie le texte "True", Django exige un booléen True
-EMAIL_USE_TLS = os.environ.get('EMAIL_USE_TLS', 'True') == 'True'
+EMAIL_USE_TLS = os.environ.get('EMAIL_USE_TLS', 'True') == 'False'
 
 # 4. Vos identifiants
 EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER', 'donimatsiona@gmail.com')
