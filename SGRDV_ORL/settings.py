@@ -1,6 +1,6 @@
 import os
 from pathlib import Path
-import dj_database_url
+import urllib.parse
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -78,12 +78,21 @@ DATABASES = {
     }
 }
 
-# 2. Bascule automatique sur PostgreSQL uniquement en production sur Render
+# 2. Décodage et connexion native à PostgreSQL pour Render
 if os.environ.get('DATABASE_URL'):
-    DATABASES['default'] = dj_database_url.config(
-        conn_max_age=600, # Optimise la rapidité d'affichage des pages
-        ssl_require=True  # Obligatoire pour sécuriser la connexion avec Render
-    )
+    url = urllib.parse.urlparse(os.environ.get('DATABASE_URL'))
+    
+    DATABASES['default'] = {
+        'ENGINE': 'django.db.backends.postgresql', # Django détectera automatiquement le nouveau module psycopg v3
+        'NAME': url.path[1:],
+        'USER': url.username,
+        'PASSWORD': url.password,
+        'HOST': url.hostname,
+        'PORT': url.port or 5432,
+        'OPTIONS': {
+            'sslmode': 'require', # Obligatoire pour sécuriser la liaison Render
+        }
+    }
 
 
 # Password validation
@@ -213,9 +222,6 @@ EMAIL_HOST = os.environ.get('EMAIL_HOST', 'smtp.gmail.com')
 EMAIL_PORT = 465
 EMAIL_USE_TLS = False
 EMAIL_USE_SSL = True 
-
-# 3. Le TLS : PIÈGE ! Render renvoie le texte "True", Django exige un booléen True
-EMAIL_USE_TLS = os.environ.get('EMAIL_USE_TLS', 'True') == 'True'
 
 # 4. Vos identifiants
 EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER', 'donimatsiona@gmail.com')
