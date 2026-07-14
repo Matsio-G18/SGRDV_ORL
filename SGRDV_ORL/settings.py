@@ -1,5 +1,6 @@
 import os
 from pathlib import Path
+import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -76,6 +77,13 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+# 2. Bascule automatique sur PostgreSQL uniquement en production sur Render
+if os.environ.get('DATABASE_URL'):
+    DATABASES['default'] = dj_database_url.config(
+        conn_max_age=600, # Optimise la rapidité d'affichage des pages
+        ssl_require=True  # Obligatoire pour sécuriser la connexion avec Render
+    )
 
 
 # Password validation
