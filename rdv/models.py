@@ -51,3 +51,12 @@ class Notification(models.Model):
 
     def __str__(self):
         return f"Notification for {self.recipient}: {self.message[:50]}"
+
+
+class VisiteUnique(models.Model):
+    adresse_ip = models.GenericIPAddressField()
+    date_visite = models.DateField(auto_now_add=True)
+
+    class Meta:
+        # Contrainte stricte : Empêche l'enregistrement d'une même IP à une même date
+        unique_together = ('adresse_ip', 'date_visite')
